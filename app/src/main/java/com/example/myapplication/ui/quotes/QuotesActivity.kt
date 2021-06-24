@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.example.myapplication.R
 import com.example.myapplication.data.Quote
 import com.example.myapplication.utilities.InjectorUtils
+import kotlinx.android.synthetic.main.activity_quotes.*
 
 class QuotesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

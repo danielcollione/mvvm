@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".ui.quotes.MainActivity"
+            android:name=".ui.quotes.QuotesActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.MyApplication.NoActionBar">
             <intent-filter>
@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.quotes.QuotesActivity" />
     </application>
 
 </manifest>
